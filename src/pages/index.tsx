@@ -5,8 +5,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <div className='h-screen flex flex-col text-white bg-[url("/img/background.jpg")] bg-fixed bg-center bg-no-repeat bg-cover'>
-        <header className='border-red-600 border-2 bg-[rgba(0,0,0,0.5)] flex justify-between'>
-          <div className='border-red-600 border-2 max-w-[11rem] flex items-center justify-center'>
+        <header className='bg-[rgba(0,0,0,0.5)] flex justify-between font-normal text-lg'>
+          <div className='max-w-[11rem] p-3 flex items-center justify-center'>
             <Image
               src='/img/logo.png'
               width={95.44}
@@ -24,15 +24,28 @@ const Home: NextPage = () => {
               title='Logo'
             />
           </div>
-          <div className='border-red-600 border-2 flex items-center justify-center'>
-            Menu
+          <div className='flex-1 flex items-center'>
+            <nav className='flex-1'>
+              <ul className='flex justify-evenly'>
+                <li>
+                  <a href='#'>Inicio</a>
+                </li>
+                <li>
+                  <a href='#'>Sobre nós</a>
+                </li>
+                <li>
+                  <a href='#'>Serviços</a>
+                </li>
+                <li>
+                  <a href='#'>Contacto</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <div className='border-red-600 border-2 flex items-center justify-center'>
-            Social
-          </div>
+          <div className='flex items-center justify-center p-10'>Social</div>
         </header>
-        <main className='border-red-600 border-2 bg-[rgba(0,0,0,0.5)] flex-1 flex flex-col justify-center p-20'>
-          <div className='border-red-600 border-2 w-2/5 text-3xl'>
+        <main className='bg-[rgba(0,0,0,0.5)] flex-1 flex flex-col justify-center p-20'>
+          <div className='w-2/5 text-2xl'>
             <h1 className='font-normal text-5xl mb-20'>
               Seu problema, nossa especialidade!
             </h1>
