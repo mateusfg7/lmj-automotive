@@ -3,9 +3,9 @@ export function Main() {
     <main className='flex-1 flex flex-col justify-center'>
       <div className='w-2/5 text-2xl'>
         <h1 className='font-bold text-5xl mb-20'>
-          Seu problema, nossa especialidade!
+          O melhor socorro, na pior hora!
         </h1>
-        <p className='italic'>
+        <p className='italic text-[#EBEBEB]'>
           Atendendo a <span className='font-normal'>emergências</span> na
           estrada, com o uso de{' '}
           <span className='font-normal'>métodos e ferramentas inovadores</span>,
