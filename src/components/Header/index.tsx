@@ -41,10 +41,10 @@ export function Header() {
               <Menu href='#home'>Inicio</Menu>
             </li>
             <li>
-              <Menu href='#services'>Serviços</Menu>
+              <Menu href='#about-us'>Sobre nós</Menu>
             </li>
             <li>
-              <Menu href='#about-us'>Sobre nós</Menu>
+              <Menu href='#services'>Serviços</Menu>
             </li>
             <li>
               <Menu href='#contact'>Contacto</Menu>
