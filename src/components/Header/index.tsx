@@ -7,7 +7,7 @@ interface MenuProps {
 
 const Menu = ({ href, children }: MenuProps) => {
   return (
-    <a href={href} className='hover:underline underline-offset-4'>
+    <a href={href} className='hover:text-white underline-offset-4'>
       {children}
     </a>
   )
@@ -15,7 +15,7 @@ const Menu = ({ href, children }: MenuProps) => {
 
 export function Header() {
   return (
-    <header className='flex justify-between font-normal text-xl pt-10'>
+    <header className='flex justify-between font-normal text-xl pt-10 text-[#acb2ba]'>
       <div className='max-w-[11rem] flex items-center justify-center'>
         <Image
           src='/img/logo.png'
