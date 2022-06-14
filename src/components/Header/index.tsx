@@ -1,9 +1,22 @@
 import Image from 'next/image'
 
+interface MenuProps {
+  href: string
+  children: React.ReactNode
+}
+
+const Menu = ({ href, children }: MenuProps) => {
+  return (
+    <a href={href} className='hover:underline underline-offset-4'>
+      {children}
+    </a>
+  )
+}
+
 export function Header() {
   return (
-    <header className='bg-[rgba(0,0,0,0.5)] flex justify-between font-normal text-lg'>
-      <div className='max-w-[11rem] p-3 flex items-center justify-center'>
+    <header className='flex justify-between font-normal text-xl pt-10'>
+      <div className='max-w-[11rem] flex items-center justify-center'>
         <Image
           src='/img/logo.png'
           width={95.44}
@@ -21,25 +34,25 @@ export function Header() {
           title='Logo'
         />
       </div>
-      <div className='flex-1 flex items-center'>
+      <div className='flex-1 flex items-center pl-28'>
         <nav className='flex-1'>
-          <ul className='flex justify-evenly'>
+          <ul className='flex justify-left gap-16'>
             <li>
-              <a href='#'>Inicio</a>
+              <Menu href='#'>Inicio</Menu>
             </li>
             <li>
-              <a href='#'>Sobre nós</a>
+              <Menu href='#'>Sobre nós</Menu>
             </li>
             <li>
-              <a href='#'>Serviços</a>
+              <Menu href='#'>Serviços</Menu>
             </li>
             <li>
-              <a href='#'>Contacto</a>
+              <Menu href='#'>Contacto</Menu>
             </li>
           </ul>
         </nav>
       </div>
-      <div className='flex items-center justify-center p-10'>Social</div>
+      <div className='flex items-center justify-center'>Social</div>
     </header>
   )
 }
