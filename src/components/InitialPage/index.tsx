@@ -4,8 +4,8 @@ import { MainSection } from '../MainSection'
 
 export function InitialPage() {
   return (
-    <div className='h-screen text-white bg-[url("/img/background.jpg")] bg-fixed bg-center bg-no-repeat bg-cover'>
-      <div className='bg-[rgba(0,0,0,0.5)] h-full'>
+    <div className='h-screen text-white bg-[url("/img/background.jpg")] bg-scroll bg-center bg-no-repeat bg-cover'>
+      <div className='bg-[rgba(13,15,20,0.6)] h-full'>
         <MainSection>
           <Header />
           <Main />
