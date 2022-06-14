@@ -38,16 +38,16 @@ export function Header() {
         <nav className='flex-1'>
           <ul className='flex justify-left gap-16'>
             <li>
-              <Menu href='#'>Inicio</Menu>
+              <Menu href='#home'>Inicio</Menu>
             </li>
             <li>
-              <Menu href='#'>Sobre nós</Menu>
+              <Menu href='#services'>Serviços</Menu>
             </li>
             <li>
-              <Menu href='#'>Serviços</Menu>
+              <Menu href='#about-us'>Sobre nós</Menu>
             </li>
             <li>
-              <Menu href='#'>Contacto</Menu>
+              <Menu href='#contact'>Contacto</Menu>
             </li>
           </ul>
         </nav>
