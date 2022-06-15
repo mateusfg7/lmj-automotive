@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Header() {
   return (
-    <header className='flex justify-between font-normal text-xl pt-10 text-[#acb2ba]'>
+    <header className='flex flex-col items-center pt-5 font-normal text-xl text-[#acb2ba] lg:pt-10 lg:flex-row lg:justify-between'>
       <div className='max-w-[11rem] flex items-center justify-center'>
         <Image
           src='/img/logo.png'
@@ -21,9 +21,9 @@ export function Header() {
           title='Logo'
         />
       </div>
-      <div className='flex-1 flex items-center pl-28'>
+      <div className='hidden flex-1 items-center pl-28 lg:flex'>
         <nav className='flex-1'>
-          <ul className='flex justify-left gap-16'>
+          <ul className='flex justify-left gap-16 min-gap-2'>
             <li>
               <a className='menu-item' href='#home'>
                 Inicio
@@ -47,7 +47,7 @@ export function Header() {
           </ul>
         </nav>
       </div>
-      <div className='flex items-center justify-center'>Social</div>
+      <div className='hidden items-center justify-center lg:flex'>Social</div>
     </header>
   )
 }
