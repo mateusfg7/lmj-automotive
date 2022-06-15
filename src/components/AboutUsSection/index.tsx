@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { MainSection } from '../MainSection'
 
-export function AboutUs() {
+export function AboutUsSection() {
   return (
     <div id='about-us' className='lg:h-screen text-white bg-[rgb(5,7,12)]'>
       <MainSection>
