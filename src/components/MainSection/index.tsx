@@ -3,5 +3,7 @@ interface MainSectionProps {
 }
 
 export const MainSection = ({ children }: MainSectionProps) => {
-  return <div className='h-full w-[85%] flex flex-col m-auto'>{children}</div>
+  return (
+    <div className='h-full flex flex-col m-auto md:w-[85%]'>{children}</div>
+  )
 }
