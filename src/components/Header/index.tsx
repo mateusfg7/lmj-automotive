@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { BsInstagram, BsWhatsapp } from 'react-icons/bs'
+
 export function Header() {
   return (
     <header className='flex flex-col items-center pt-5 font-normal text-xl text-[#acb2ba] lg:pt-10 lg:flex-row lg:justify-between'>
@@ -48,7 +50,17 @@ export function Header() {
           </ul>
         </nav>
       </div>
-      <div className='hidden items-center justify-center lg:flex'>Social</div>
+      <div className='hidden text-2xl items-center justify-center gap-6 lg:flex'>
+        <a
+          href='https://www.instagram.com/lmj_automotive/'
+          className='menu-item'
+        >
+          <BsInstagram />
+        </a>
+        <a href='https://wa.me/+5537998440073' className='menu-item'>
+          <BsWhatsapp />
+        </a>
+      </div>
     </header>
   )
 }
