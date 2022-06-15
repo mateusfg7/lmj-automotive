@@ -12,6 +12,14 @@ body {
   color: black;
 }
 
+.blue-test {
+  @apply border-blue-600 border-2;
+}
+
+.red-test {
+  @apply border-red-600 border-2;
+}
+
 .menu-item {
   @apply hover:text-white underline-offset-4;
 }
