@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import { Header } from '../components/Header'
 import { MainSection } from '../components/MainSection'
@@ -5,6 +6,10 @@ import { MainSection } from '../components/MainSection'
 function AboutUs() {
   return (
     <div className='bg-[rgb(5,7,12)] text-white h-screen'>
+      <Head>
+        <title>LMJ Automotive | Sobre Nós</title>
+      </Head>
+
       <MainSection>
         <Header />
         <div className='mt-52 flex flex-col gap-10 justify-center items-center lg:items-start'>
