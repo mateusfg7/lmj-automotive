@@ -2,7 +2,7 @@
 
 Empresa fictícia para o Projeto Final do curso de Aprendizado Industrial em Logística, na instituição SESI SENAI Dr. Celso Charuri - Pará de Minas MG.
 
---
+---
 
 Créditos:
 
