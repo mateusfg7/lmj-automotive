@@ -11,3 +11,7 @@ body {
   background: white;
   color: black;
 }
+
+.menu-item {
+  @apply hover:text-white underline-offset-4;
+}

@@ -1,18 +1,5 @@
 import Image from 'next/image'
 
-interface MenuProps {
-  href: string
-  children: React.ReactNode
-}
-
-const Menu = ({ href, children }: MenuProps) => {
-  return (
-    <a href={href} className='hover:text-white underline-offset-4'>
-      {children}
-    </a>
-  )
-}
-
 export function Header() {
   return (
     <header className='flex justify-between font-normal text-xl pt-10 text-[#acb2ba]'>
@@ -38,16 +25,24 @@ export function Header() {
         <nav className='flex-1'>
           <ul className='flex justify-left gap-16'>
             <li>
-              <Menu href='#home'>Inicio</Menu>
+              <a className='menu-item' href='#home'>
+                Inicio
+              </a>
             </li>
             <li>
-              <Menu href='#about-us'>Sobre nós</Menu>
+              <a className='menu-item' href='#about-us'>
+                Sobre nós
+              </a>
             </li>
             <li>
-              <Menu href='#services'>Serviços</Menu>
+              <a className='menu-item' href='#services'>
+                Serviços
+              </a>
             </li>
             <li>
-              <Menu href='#contact'>Contacto</Menu>
+              <a className='menu-item' href='#contact'>
+                Contacto
+              </a>
             </li>
           </ul>
         </nav>
