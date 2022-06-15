@@ -23,3 +23,9 @@ body {
 .menu-item {
   @apply hover:text-white underline-offset-4;
 }
+
+.lmj-value-titles {
+  @apply text-[#CCCFD3] text-center text-3xl hover:text-white;
+  @apply border-b-2 border-[#CCCFD3] hover:border-white;
+  @apply py-5 duration-500;
+}
