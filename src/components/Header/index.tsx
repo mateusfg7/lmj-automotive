@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -25,14 +26,14 @@ export function Header() {
         <nav className='flex-1'>
           <ul className='flex justify-left gap-16 min-gap-2'>
             <li>
-              <a className='menu-item' href='#home'>
-                Inicio
-              </a>
+              <Link href='/'>
+                <a className='menu-item'>Inicio</a>
+              </Link>
             </li>
             <li>
-              <a className='menu-item' href='#about-us'>
-                Sobre nós
-              </a>
+              <Link href='/#about-us'>
+                <a className='menu-item'>Sobre nós</a>
+              </Link>
             </li>
             <li>
               <a className='menu-item' href='#services'>
