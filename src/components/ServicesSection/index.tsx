@@ -1,17 +1,15 @@
 import Image from 'next/image'
-import Link from 'next/link'
-import { MainSection } from '../MainSection'
 
 export function ServicesSection() {
   return (
     <div
       id='services'
-      className='lg:h-screen bg-[url("/img/background.jpg")] bg-fixed bg-center bg-no-repeat bg-cover text-black blue-test'
+      className='lg:h-screen bg-[url("/img/background.jpg")] bg-fixed bg-center bg-no-repeat bg-cover text-black'
     >
       <div className='bg-[rgba(5,7,12,0.6)] h-full grid grid-areas-services grid-cols-services grid-rows-services'>
-        <section className='red-test grid-in-sec1 bg-white'>Section 1</section>
-        <section className='red-test grid-in-sec2'>Section 2</section>
-        <section className='red-test grid-in-sec3'>
+        <section className='grid-in-sec1 bg-white'>Section 1</section>
+        <section className='grid-in-sec2'>Section 2</section>
+        <section className='grid-in-sec3'>
           <div className='relative h-full'>
             <Image
               src='/img/man-having-problem-with-his-car.jpg'
@@ -23,7 +21,7 @@ export function ServicesSection() {
             />
           </div>
         </section>
-        <section className='red-test grid-in-sec4 bg-[rgb(5,7,12)] text-white'>
+        <section className='grid-in-sec4 bg-[rgb(5,7,12)] text-white'>
           Section 4
         </section>
       </div>
