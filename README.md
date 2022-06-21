@@ -4,6 +4,13 @@ Empresa fictícia para o Projeto Final do curso de Aprendizado Industrial em Log
 
 ---
 
-Créditos:
+# Créditos:
 
 - https://www.behance.net/gallery/144868567/Luxury-Car-Website-UIUX-Design
+
+---
+
+# Refs:
+
+- https://savvywombat.com.au/tailwind-css/grid-areas/#variants
+- https://tailwindcss.com/docs
