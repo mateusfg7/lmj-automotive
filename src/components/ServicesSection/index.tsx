@@ -1,29 +1,46 @@
 import Image from 'next/image'
 
+const BlackFilter = () => (
+  <div className='w-full h-full bg-[rgba(5,7,12,0.3)]' />
+)
+
 export function ServicesSection() {
   return (
-    <div
-      id='services'
-      className='lg:h-screen bg-[url("/img/background.jpg")] bg-fixed bg-center bg-no-repeat bg-cover text-black'
-    >
-      <div className='bg-[rgba(5,7,12,0.6)] h-full grid grid-areas-services grid-cols-services grid-rows-services'>
-        <section className='grid-in-sec1 bg-white'>Section 1</section>
-        <section className='grid-in-sec2'>Section 2</section>
-        <section className='grid-in-sec3'>
-          <div className='relative h-full'>
-            <Image
-              src='/img/man-having-problem-with-his-car.jpg'
-              width={1500}
-              height={1000}
-              layout='fill'
-              objectFit='cover'
-              alt='Homem tendo problemas com o carro'
-            />
+    <div id='services' className='lg:h-screen text-black'>
+      <div className='h-full grid grid-areas-services grid-cols-services grid-rows-services'>
+        <section className='grid-in-sec1 bg-white flex flex-col pl-[calc((100vw-85vw)/2)]'>
+          <header>
+            <h1 className='text-3xl font-bold'>Nossos Serviços</h1>
+          </header>
+          <div className='flex-1 flex'>
+            <div className='flex-1'>
+              <h2>Falta de algo no Automóvel</h2>
+              <ul className='list-disc list-inside'>
+                <li>Fornecimento de combustível</li>
+                <li>Troca de óleo</li>
+                <li>Troca de refil de água do carro</li>
+              </ul>
+            </div>
+            <div className='flex-1'>
+              <h2>Manutenção Simples</h2>
+              <ul className='list-disc list-inside'>
+                <li>Carro furou o pneu</li>
+                <li>Bateria descarregou</li>
+                <li>Roda saiu do carro</li>
+                <li>Pane elétrica</li>
+                <li>Troca do fluido de freio</li>
+                <li>Aditivo de radiador</li>
+              </ul>
+            </div>
           </div>
         </section>
-        <section className='grid-in-sec4 bg-[rgb(5,7,12)] text-white'>
-          Section 4
+        <section className='grid-in-sec2 bg-[url("/img/mechanics-lmj-uniform.jpg")] bg-center bg-no-repeat bg-cover'>
+          <BlackFilter />
         </section>
+        <section className='grid-in-sec3 bg-[url("/img/young-woman-calling-assistance.jpg")] bg-center bg-no-repeat bg-cover'>
+          <BlackFilter />
+        </section>
+        <section className='grid-in-sec4 bg-[rgb(5,7,12)]'>Section 3</section>
       </div>
     </div>
   )
