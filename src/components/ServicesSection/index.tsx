@@ -7,7 +7,7 @@ const BlackFilter = () => (
 export function ServicesSection() {
   return (
     <div id='services' className='lg:h-screen text-black'>
-      <div className='h-full grid grid-areas-services grid-cols-services grid-rows-services'>
+      <div className='h-full md:grid grid-areas-services grid-cols-services grid-rows-services'>
         <section className='grid-in-sec1 bg-white flex flex-col pl-[calc((100vw-85vw)/2)] py-5'>
           <header>
             <h1 className='text-3xl font-bold'>Nossos Serviços</h1>
@@ -42,15 +42,12 @@ export function ServicesSection() {
         <section className='grid-in-sec2 bg-[url("/img/mechanics-lmj-uniform.jpg")] bg-center bg-no-repeat bg-cover'>
           <BlackFilter />
         </section>
-        <section className='grid-in-sec3 bg-[url("/img/young-woman-calling-assistance.jpg")] bg-center bg-no-repeat bg-cover'>
+        <section className='h-80 md:h-auto grid-in-sec3 bg-[url("/img/young-woman-calling-assistance.jpg")] bg-center bg-no-repeat bg-cover bg-fixed md:bg-scroll'>
           <BlackFilter />
         </section>
-        <section className='grid-in-sec4 bg-[rgb(5,7,12)]'>
+        <section className='grid-in-sec4 bg-[rgb(5,7,12)] p-8 md:px-0'>
           <SliderCarousel />
         </section>
-        {/* <section className='grid-in-sec4 bg-white'>
-          <SliderCarousel />
-        </section> */}
       </div>
     </div>
   )
