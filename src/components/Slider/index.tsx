@@ -1,4 +1,12 @@
-import { CarouselProvider, Slider, Slide } from 'pure-react-carousel'
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from 'pure-react-carousel'
+
+import { GrFormPreviousLink, GrFormNextLink } from 'react-icons/gr'
 
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
@@ -14,23 +22,32 @@ export function SliderCarousel() {
       naturalSlideWidth={150}
       naturalSlideHeight={150}
       totalSlides={reports.length}
-      className='h-full relative flex justify-center items-center'
-      interval={10}
+      className='h-full flex flex-col items-center'
       isPlaying
       infinite
       isIntrinsicHeight
     >
-      <Slider className='w-full h-max'>
-        {reports.map((report, index) => {
-          return (
-            <Slide key={index} index={index}>
-              <div className='h-full flex justify-center items-center px-4 text-justify font-normal leading-7 text-lg text-white italic'>
-                {report}
-              </div>
-            </Slide>
-          )
-        })}
-      </Slider>
+      <div className='flex-1 flex justify-center items-center'>
+        <Slider className='w-full h-max'>
+          {reports.map((report, index) => {
+            return (
+              <Slide key={index} index={index}>
+                <div className='h-full flex justify-center items-center px-4 text-justify font-normal leading-7 text-lg text-white italic'>
+                  {report}
+                </div>
+              </Slide>
+            )
+          })}
+        </Slider>
+      </div>
+      <div className='flex justify-center gap-5 w-full text-white text-xl pt-6 md:p-0'>
+        <ButtonBack>
+          <GrFormPreviousLink className='transition rounded-lg bg-[rgba(255,255,255,0.7)] hover:bg-white' />
+        </ButtonBack>
+        <ButtonNext>
+          <GrFormNextLink className='transition rounded-lg bg-[rgba(255,255,255,0.7)] hover:bg-white' />
+        </ButtonNext>
+      </div>
     </CarouselProvider>
   )
 }
