@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { SliderCarousel } from '../Slider'
 
 const BlackFilter = () => (
   <div className='w-full h-full bg-[rgba(5,7,12,0.3)]' />
@@ -45,7 +45,12 @@ export function ServicesSection() {
         <section className='grid-in-sec3 bg-[url("/img/young-woman-calling-assistance.jpg")] bg-center bg-no-repeat bg-cover'>
           <BlackFilter />
         </section>
-        <section className='grid-in-sec4 bg-[rgb(5,7,12)]'>Section 3</section>
+        <section className='grid-in-sec4 bg-[rgb(5,7,12)]'>
+          <SliderCarousel />
+        </section>
+        {/* <section className='grid-in-sec4 bg-white'>
+          <SliderCarousel />
+        </section> */}
       </div>
     </div>
   )
