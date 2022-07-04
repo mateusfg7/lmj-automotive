@@ -7,10 +7,10 @@ body {
   font-weight: 300;
 }
 
-::selection {
+/* ::selection {
   background: white;
   color: black;
-}
+} */
 
 .blue-test {
   @apply border-blue-600 border-2;
