@@ -42,11 +42,11 @@ export function Header() {
                 Serviços
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className='menu-item' href='#contact'>
                 Contacto
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
