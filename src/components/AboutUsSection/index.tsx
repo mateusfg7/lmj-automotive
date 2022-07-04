@@ -28,11 +28,11 @@ export function AboutUsSection() {
                 implementação de oficinas móveis.
               </p>
               <div className='w-full flex justify-center lg:justify-end mt-12 lg:m-0'>
-                <Link href='/about-us'>
+                {/* <Link href='/about-us'>
                   <a className='w-2/3 lg:w-max duration-300 text-center text-xl font-normal border-white border-2 p-5 rounded-xl hover:bg-white hover:text-[rgb(5,7,12)]'>
                     Leia Mais
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
