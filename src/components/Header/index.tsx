@@ -42,11 +42,11 @@ export function Header() {
                 Serviços
               </a>
             </li>
-            {/* <li>
-              <a className='menu-item' href='#contact'>
-                Contacto
+            <li>
+              <a className='menu-item' href='#prices'>
+                Preços
               </a>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>
