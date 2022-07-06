@@ -32,7 +32,7 @@ export function SliderCarousel() {
           {reports.map((report, index) => {
             return (
               <Slide key={index} index={index}>
-                <div className='h-full flex justify-center items-center px-4 text-justify font-normal leading-7 text-lg text-white italic'>
+                <div className='h-full flex justify-center items-center px-1 md:px-4 text-justify font-normal leading-7 text-lg text-white italic'>
                   {report}
                 </div>
               </Slide>
