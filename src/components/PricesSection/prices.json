@@ -1,0 +1,86 @@
+[
+  {
+    "service": "Troca de Óleo",
+    "price_in_reais": {
+      "car": 50,
+      "truck": 350
+    }
+  },
+  {
+    "service": "Troca do pneu/roda | por roda",
+    "price_in_reais": {
+      "car": 55,
+      "truck": 100
+    }
+  },
+  {
+    "service": "Recarga da bateria",
+    "price_in_reais": {
+      "car": 45,
+      "truck": 50
+    }
+  },
+  {
+    "service": "Troca dos fusíveis",
+    "price_in_reais": {
+      "car": 30,
+      "truck": 30
+    }
+  },
+  {
+    "service": "Troca do Fluido de Freio",
+    "price_in_reais": {
+      "car": 65,
+      "truck": 150
+    }
+  },
+  {
+    "service": "Troca do Aditivo de Radiador",
+    "price_in_reais": {
+      "car": 60,
+      "truck": 100
+    }
+  },
+  {
+    "service": "Fornecimento de Gasolina",
+    "price_in_reais": {
+      "car": 25,
+      "truck": 40
+    }
+  },
+  {
+    "service": "Troca de Correia Dentada e Tensor",
+    "price_in_reais": {
+      "car": 50,
+      "truck": 80
+    }
+  },
+  {
+    "service": "Revisão de Suspensão",
+    "price_in_reais": {
+      "car": 40,
+      "truck": 70
+    }
+  },
+  {
+    "service": "Troca de Filtros",
+    "price_in_reais": {
+      "car": 60,
+      "truck": 85
+    }
+  },
+  {
+    "service": "Instalação de Alternador",
+    "price_in_reais": {
+      "car": 50,
+      "truck": 55
+    }
+  },
+  {
+    "service": "Diagnóstico com scanner",
+    "price_in_reais": {
+      "car": 65,
+      "truck": 70
+    }
+  }
+]
