@@ -12,9 +12,9 @@ export function ServicesSection() {
           <header>
             <h1 className='text-3xl font-bold'>Nossos Serviços</h1>
           </header>
-          <div className='flex-1 flex py-5'>
+          <div className='flex-1 flex flex-col md:flex-row py-5'>
             <div className='flex-1'>
-              <h2 className='text-2xl font-normal mb-4'>
+              <h2 className='black text-2xl font-normal my-4'>
                 Serviço de manutenção
               </h2>
               <ul className='list-disc list-inside text-lg'>
@@ -28,7 +28,7 @@ export function ServicesSection() {
               </ul>
             </div>
             <div className='flex-1'>
-              <h2 className='text-2xl font-normal mb-4'>
+              <h2 className='black text-2xl font-normal my-4'>
                 Serviços Personalizável
               </h2>
               <ul className='list-disc list-inside text-lg'>
