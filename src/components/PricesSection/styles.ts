@@ -3,18 +3,18 @@ import tw from 'tailwind-styled-components'
 export const Container = tw.div`
   h-full w-full
   flex items-center justify-center
-  p-2 md:p-8
+  md:p-8
 `
 
 export const PriceCard = tw.div`
-  md:w-2/3
-  p-2 md:p-6
+  w-full md:w-2/3
+  p-3 md:p-6
   text-black
   font-normal
   md:text-xl
-  bg-white
+  md:bg-white
   shadow-2xl
-  rounded-3xl
+  md:rounded-3xl
   flex flex-col
 `
 
