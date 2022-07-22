@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.2.0",
+    "next": "12.2.3",
     "pure-react-carousel": "1.28.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -22,7 +22,7 @@
     "@types/react-dom": "18.0.6",
     "autoprefixer": "10.4.7",
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0",
+    "eslint-config-next": "12.2.3",
     "postcss": "8.4.14",
     "tailwind-styled-components": "^2.1.8",
     "tailwindcss": "3.1.4",
