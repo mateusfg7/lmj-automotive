@@ -156,10 +156,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.3.tgz#6801033be7ff87a6b7cadaf5b337c9f366a3c4b0"
   integrity sha512-WiBSI6JBIhC6LRIsB2Kwh8DsGTlbBU+mLRxJmAe3LjHTdkDpwIbEOZgoXBbZilk/vlfjK8i6nKRAvIRn1XaIMw==
 
-"@savvywombat/tailwindcss-grid-areas@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@savvywombat/tailwindcss-grid-areas/-/tailwindcss-grid-areas-2.2.0.tgz#69a8e1af55cbb0731a74261ae406dea34e72562a"
-  integrity sha512-34zfBLygYf0IeZuIA+znFqTzRaZTH1cerAIH1YDostXks+o06CtgWqXSQVbQ7iQTt30iNoPs7R7t+xS97gongQ==
+"@savvywombat/tailwindcss-grid-areas@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@savvywombat/tailwindcss-grid-areas/-/tailwindcss-grid-areas-3.0.1.tgz#f7932af4c07ae28305f78ea43826918848bf9388"
+  integrity sha512-0mLuS41AhxRtYZjjUpF/pyTOZqsuH2d+pUpdNqnXWR/KRI3And3bkmaRsGQH9g/dAboZlDDvVVaKMrj7LorgtA==
   dependencies:
     lodash "^4.17.21"
 
