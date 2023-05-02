@@ -8,7 +8,7 @@ export function ServicesSection() {
   return (
     <div id='services' className='lg:h-screen text-black'>
       <div className='h-full md:grid grid-areas-services grid-cols-services grid-rows-services'>
-        <section className='grid-in-sec1 bg-white flex flex-col pl-[calc((100vw-85vw)/2)] py-5'>
+        <section className='grid-in-sec1 bg-white flex flex-col pl-[calc((100vw-85vw)/2)] py-5 md:pt-24'>
           <header>
             <h1 className='text-3xl font-bold'>Nossos Serviços</h1>
           </header>
