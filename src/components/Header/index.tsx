@@ -28,13 +28,13 @@ export function Header() {
         <nav className='flex-1'>
           <ul className='flex justify-left gap-16 min-gap-2'>
             <li>
-              <Link href='/'>
-                <a className='menu-item'>Inicio</a>
+              <Link href='/' className='menu-item'>
+                Inicio
               </Link>
             </li>
             <li>
-              <Link href='/#about-us'>
-                <a className='menu-item'>Sobre nós</a>
+              <Link href='/#about-us' className='menu-item'>
+                Sobre nós
               </Link>
             </li>
             <li>

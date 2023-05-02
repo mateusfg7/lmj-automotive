@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render(): JSX.Element {
     return (
-      <Html>
+      <Html className='scroll-smooth'>
         <Head>
           <link rel='icon' href='/favicon.png' />
           <link rel='preconnect' href='https://fonts.googleapis.com' />
@@ -13,7 +13,7 @@ class MyDocument extends Document {
             rel='stylesheet'
           />
         </Head>
-        <body>
+        <body className='scroll-smooth'>
           <Main />
           <NextScript />
         </body>
