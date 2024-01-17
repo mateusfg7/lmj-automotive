@@ -16,7 +16,7 @@
     "react-icons": "4.12.0"
   },
   "devDependencies": {
-    "@savvywombat/tailwindcss-grid-areas": "3.0.1",
+    "@savvywombat/tailwindcss-grid-areas": "3.1.0",
     "@types/node": "20.11.5",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
