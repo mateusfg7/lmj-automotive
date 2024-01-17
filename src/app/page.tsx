@@ -7,8 +7,8 @@ export default function Page() {
   return (
     <div>
       <InitialPage />
-      <AboutUsSection />
-      <ServicesSection />
+      {/* <AboutUsSection /> */}
+      {/* <ServicesSection /> */}
       <PriceSection />
     </div>
   );

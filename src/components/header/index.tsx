@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 
 import { BsInstagram, BsWhatsapp } from "react-icons/bs";
 
+import logo from "./logo.png";
+import typography from "./typography.png";
+
 export function Header() {
   const [percentScrollPosition, setPercentScrollPosition] = useState(0);
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -49,32 +52,24 @@ export function Header() {
   return (
     <header
       className={`md:fixed w-full duration-200 z-50 ${
-        isOnTop
-          ? "py-3"
-          : "py-1 md:bg-[rgba(5,7,12,0.9)] md:backdrop-blur-sm md:border-b md:border-b-[rgba(172,178,186,0.1)]"
+        isOnTop ? "py-3" : "py-1 md:bg-[rgba(5,7,12,0.9)]"
       }`}
     >
       <div className="content-w flex flex-col items-center font-normal text-xl text-[#acb2ba] lg:flex-row lg:justify-between">
         <div className="flex items-center gap-24 min-gap-5">
-          <div className="flex items-center justify-center w-44">
+          <div className={`flex items-center justify-center w-32`}>
             <div>
               <Image
-                src="/img/logo.png"
-                width={95.44}
-                height={100}
-                alt="LMJ Automotive"
-                title="Logo"
                 className="object-contain"
+                src={logo}
+                alt="LMJ Automotive"
               />
             </div>
             <div>
               <Image
-                src="/img/tipografia.png"
-                width={147.82}
-                height={54.77}
-                alt="LMJ Automotive"
-                title="Logo"
                 className="object-contain"
+                src={typography}
+                alt="LMJ Automotive"
               />
             </div>
           </div>
