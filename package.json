@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@savvywombat/tailwindcss-grid-areas": "3.0.1",
-    "@types/node": "18.16.3",
+    "@types/node": "20.11.5",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
     "autoprefixer": "10.4.16",
