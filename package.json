@@ -18,8 +18,8 @@
   "devDependencies": {
     "@savvywombat/tailwindcss-grid-areas": "3.0.1",
     "@types/node": "20.11.5",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.1",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
     "autoprefixer": "10.4.16",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
