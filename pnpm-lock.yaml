@@ -48,7 +48,7 @@ devDependencies:
     version: 8.4.33
   tailwind-styled-components:
     specifier: ^2.1.8
-    version: 2.1.8(react-dom@18.2.0)(react@18.2.0)
+    version: 2.2.0(react-dom@18.2.0)(react@18.2.0)
   tailwindcss:
     specifier: 3.4.1
     version: 3.4.1
@@ -716,7 +716,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /client-only@0.0.1:
@@ -1500,8 +1500,8 @@ packages:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
-  /fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents@2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -2949,19 +2949,19 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /tailwind-merge@1.12.0:
-    resolution: {integrity: sha512-Y17eDp7FtN1+JJ4OY0Bqv9OA41O+MS8c1Iyr3T6JFLnOgLg3EvcyMKZAnQ8AGyvB5Nxm3t9Xb5Mhe139m8QT/g==}
+  /tailwind-merge@1.14.0:
+    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
     dev: true
 
-  /tailwind-styled-components@2.1.8(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-8RfMqGGOpgrd1j6MU5kWe4mzqjR2ikPfPS2xee9By2ynKQH5UFO5upLK6yw3Vc0pJ2ACEduJWoxUItDG8FZSvw==}
+  /tailwind-styled-components@2.2.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Ogemwk0p69aU8WE/ooJZHjqstdJgT5R6HGU6TFz2uSnveSEtvW+C6aWOjGCvCr5H/bREv0IbbQ4yODknRrLBRQ==}
     peerDependencies:
       react: '>= 16.8.0'
       react-dom: '>= 16.8.0'
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      tailwind-merge: 1.12.0
+      tailwind-merge: 1.14.0
     dev: true
 
   /tailwindcss@3.4.1:
